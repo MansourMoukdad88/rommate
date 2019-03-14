@@ -2,7 +2,7 @@
   "name": "v1",
   "version": "1.0.0",
   "description": "rommate v1",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/MansourMoukdad88/rommate/issues"
   },
-  "homepage": "https://github.com/MansourMoukdad88/rommate#readme"
+  "homepage": "https://github.com/MansourMoukdad88/rommate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
 }
